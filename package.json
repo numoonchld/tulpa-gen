@@ -1,0 +1,22 @@
+{
+  "name": "tulpa-gen",
+  "version": "0.0.1",
+  "private": true,
+  "description": "express app to demo generation of tulpas",
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.7.1",
+    "mongodb": "^3.1.12",
+    "morgan": "~1.9.0",
+    "node-sass-middleware": "0.11.0",
+    "pug": "2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
